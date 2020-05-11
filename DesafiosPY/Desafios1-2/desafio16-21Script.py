@@ -31,5 +31,8 @@ n1,n2,n3,n4 = input(),input(),input(),input()
 print(f'{sample([n1,n2,n3,n4],4)}')
 '''
 #Desafio 21
-
+from pygame import mixer
+mixer.init()
+mixer.music.load('teste.mp3')
+mixer.music.play()
 
