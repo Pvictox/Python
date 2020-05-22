@@ -80,7 +80,7 @@ while true:
         if pre < menor:
             menor = pre
             nm = nome
-    if pre >=1000=
+    if pre >=1000:
     quant+=1
     total +=pre
     cont = str(input()).upper()
